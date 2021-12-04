@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casefactory - Order confirm</title>
+    <link rel="stylesheet"  type="text/css"  href="{% static 'css/main.css' %}">
+</head>
+<body>
+    <img id="product-image" src="https://m.media-amazon.com/images/I/71geVdy6-OS._SX569_.jpg"/>
+    <div class="form-container">
+        <div class="gesture-top"></div>
+        <div class="input-form">
+            <input type="text" placeholder="Fullname" class="form-input">
+        </div>
+        <div class="input-form">
+            <input type="text" placeholder="Contact No" class="form-input">
+        </div>
+        <div class="input-form">
+            <textarea type="text" cols="5"  placeholder="Address" class="form-input"></textarea>
+        </div>
+        <div style="width: 100%;">
+            <input type="button" id="btn-positive" value="Next">
+        </div>
+    </div>
+    
+</body>
+</html>
